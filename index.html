@@ -10,50 +10,29 @@
   <body>
     <div class="wrapper">
       <!-- Carousel wrapper -->
-      <ul class="slider" role="listbox">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-        <li>item 5</li>
-      </ul>
+      <div class="slider" aria-label="carousel">
+        <div role="group" aria-label="slide 1">item 1</div>
+        <div role="group" aria-label="slide 2">item 2</div>
+        <div role="group" aria-label="slide 3">item 3</div>
+        <div role="group" aria-label="slide 4">item 4</div>
+        <div role="group" aria-label="slide 5">item 5</div>
+      </div>
       <!-- Slider indicators -->
       <ul class="indicators" role="list">
         <li>
-          <button
-            type="button"
-            aria-current="true"
-            aria-label="Slide 1"
-            class="active"
-          ></button>
+          <button type="button" aria-current="true" class="active"></button>
         </li>
         <li>
-          <button
-            type="button"
-            aria-current="false"
-            aria-label="Slide 2"
-          ></button>
+          <button type="button" aria-current="false"></button>
         </li>
         <li>
-          <button
-            type="button"
-            aria-current="false"
-            aria-label="Slide 3"
-          ></button>
+          <button type="button" aria-current="false"></button>
         </li>
         <li>
-          <button
-            type="button"
-            aria-current="false"
-            aria-label="Slide 5"
-          ></button>
+          <button type="button" aria-current="false"></button>
         </li>
         <li>
-          <button
-            type="button"
-            aria-current="false"
-            aria-label="Slide 6"
-          ></button>
+          <button type="button" aria-current="false"></button>
         </li>
       </ul>
     </div>
